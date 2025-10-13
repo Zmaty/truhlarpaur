@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&display=swap');
+html {font-family:"Montserrat", sans-serif; color:#000; font-size:1em;}
+html,body,div,img,ul,li,a {z-index:0; margin:0; padding:0; box-sizing:border-box; border-width:0px; list-style:none; transition:0.5s;}
+a:link,a:visited,a:active {color:#000; text-decoration:underline;}
+a:hover {color:#fff; transition:0s;}
+body {background:#00000099 url(wood2.jpg) repeat top center local;}
+
+#logo {display:flex; justify-content:center; align-items:center; background:#00000030; font-family:"Dynalight"; font-size:3.7em; color:#fff; text-decoration:none;}
+#logo img {height:120px; margin:10px 20px 10px 0;}
+#menu {position:relative; font-size:1.2em; overflow:hidden; background:#00000060; text-shadow:0px 0px 50px #000;}
+#menu img {display:none;}
+#menu ul {display:flex; flex-direction:row; justify-content:center;}
+#menu a {display:flex; text-decoration:none; text-transform:uppercase; color:#fff;}
+#menu a, .minimenu {padding:10px 20px;}
+#menu a:hover, .minimenu:hover, .minimenu.active:hover, .aktivni, #zpetnahoru:hover {background:#ffffff50; transition:0s;}
+.aktivni {box-shadow:0 0 10px 0 #000;}
+.minimenu {display:none;}
+
+#zpetnahoru {display:flex; z-index:100; position:fixed; bottom:0; right:0; height:45px; padding:10px 20px; background:#00000060; cursor:pointer; font-size:1.2em; color:#fff;}
+#main {position:relative; display:flex; justify-content:center; margin:0 0 20px 0; background:#ffffff60; text-align:left; line-height:1.5; box-shadow:0 0 10px 0 #000;}
+#obsah {min-width:960px; max-width:960px; padding:30px;}
+h1 {margin:0 0 0px 0; font-size:2.0em; text-align:center; font-weight:normal; padding:10px 20px; background:#00000030;}
+h2 {margin:0 0 40px 0; font-size:1.3em; text-align:center; font-weight:normal; background:#00000030; padding:10px 20px;}
+h3 {margin:0 0 10px 0; font-size:1.3em; font-weight:bold;}
+h4 {margin:0; font-size:1em; font-weight:bold; text-transform:uppercase;}
+.uvod-foto {display:flex; justify-content:center;}
+.uvod-foto img {height:250px; width:100%}
+.poznamka {font-weight:normal; font-style:italic;}
+.uvod-sluzby {clear:both; display:flex; flex-flow:row wrap; justify-content:center; text-align:center; margin-top:30px;}
+.uvod-sluzby * {min-width:0; font-size:1.2em;}
+.uvod-sluzby div {width:175px; padding:0px 10px;}
+.uvod-sluzby img {width:150px;}
+.sluzby {clear:both;}
+.sluzby img {width:150px; clear:both; float:right;}
+.neco-o-me {margin:0 0 20px 0;}
+.kontakt {margin:0 0 20px 0;}
+.mapa {float:right; width:600px; opacity:0.8;}
+
+/* lightbox pro obrázky */
+#galerie img, #nahled {position:relative; width:200px; cursor:pointer; padding:5px; background:#fff; border-radius:10px; box-shadow:0 0 4px 0 #00000040;}
+#galerie img:hover, #nahled:hover {background:#ddd; transition:0s;}
+#lightbox {position:fixed; z-index:101; top:0; width:100%; height:100%; background:#000000cc; display:none;}
+#lightbox.active {display:flex; justify-content:center; align-items:center;}
+#lightbox img {max-width:90%; max-height:80%; padding:5px; background:#fff; border-radius:10px;}
+
+/* slider obrázků */
+.slider img {width:200px; padding:5px; background:#fff; border-radius:10px; box-shadow:0 0 4px 0 #00000040;}
+.slider img.visible {display:flex;}
+.slider img.hidden {display:none;}
+
+/* optimalizace pro mobily */
+@media (max-width:960px) {
+#logo {position:relative; margin-top:54px; font-size:2.2em; padding:5px 0; overflow:hidden;}
+#logo img {display:none;}
+#menu img {display:flex; position:absolute; top:0px; left:20px; height:54px; padding:5px 0;}
+#menu {position:absolute; top:0; width:100%;}
+#menu.active {z-index:100;}
+#menu ul {position:fixed; flex-direction:column; width:100%;}
+#menu ul li {background:#333; visibility:hidden; opacity:0; box-shadow:0 4px 4px 0 #00000040; transform:translateX(-250px); transition-delay:calc(0.1s * var(--i));}
+#menu.active ul li {visibility:visible; opacity:1; transform:translateX(0px);}
+#menu a {justify-content:left;}
+#menu a, .minimenu {padding:15px 20px;}
+#menu a, .minimenu.active {background:#444;}
+#menu .aktivni {box-shadow:none;}
+#menu a:hover, .minimenu:hover, .minimenu.active:hover, #zpetnahoru:hover {box-shadow:none; background:#333;}
+.minimenu {display:flex; justify-content:right; cursor:pointer; color:#fff;}
+.minimenu::before {content:'menu'; margin:0 30px; text-transform:uppercase;}
+.minimenu.active::before {content:'exit';}
+.minimenu span {position:relative;}
+.minimenu span::before {content:''; position:absolute; top:7px; right:0px; width:20px; height:2px; background:#fff; transition:0.5s;}
+.minimenu span::after {content:''; position:absolute; top:14px; right:0px; width:20px; height:2px; background:#fff; transition:0.5s;}
+.minimenu.active span::before {transform:rotate(225deg); top:11px;}
+.minimenu.active span::after {transform:rotate(135deg); top:11px;}
+#main {position:relative;}
+#main a {display:flex;}
+#obsah {min-width:100%; max-width:100%; padding:20px;}
+h1 {font-size:1.6em;}
+.uvod-foto {flex-direction:column;}
+.uvod-sluzby div {padding:10px 0 0 0;}
+.sluzby img {width:120px;}
+.kontakt {margin:20px 0 0 0;}
+.mapa {float:none; width:100%;}

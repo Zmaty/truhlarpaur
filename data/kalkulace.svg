@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   style="enable-background:new 0 0 100 100;"
+   xml:space="preserve"
+   id="svg10"
+   sodipodi:docname="kalkulace.svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs10" /><sodipodi:namedview
+   id="namedview10"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="8.03"
+   inkscape:cx="50"
+   inkscape:cy="50"
+   inkscape:window-width="1920"
+   inkscape:window-height="1011"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg10" />
+<g
+   id="Vrstva_232"
+   style="fill:#000000">
+	<g
+   id="g10"
+   style="fill:#000000">
+		<g
+   id="g1"
+   style="fill:#000000">
+			<path
+   style="fill:#000000"
+   d="M89,90.5H11c-0.829,0-1.5-0.672-1.5-1.5V11c0-0.828,0.671-1.5,1.5-1.5h78     c0.828,0,1.5,0.672,1.5,1.5v78C90.5,89.828,89.828,90.5,89,90.5z M12.5,87.5h75v-75h-75V87.5z"
+   id="path1" />
+		</g>
+		<g
+   id="g2"
+   style="fill:#000000">
+			<path
+   style="fill:#000000"
+   d="M34,44c-0.829,0-1.5-0.672-1.5-1.5v-19c0-0.828,0.671-1.5,1.5-1.5c0.829,0,1.5,0.672,1.5,1.5v19     C35.5,43.328,34.829,44,34,44z"
+   id="path2" />
+		</g>
+		<g
+   id="g3"
+   style="fill:#000000">
+			<path
+   style="fill:#000000"
+   d="M43.5,34.5h-19c-0.829,0-1.5-0.672-1.5-1.5c0-0.828,0.671-1.5,1.5-1.5h19     c0.829,0,1.5,0.672,1.5,1.5C45,33.828,44.329,34.5,43.5,34.5z"
+   id="path3" />
+		</g>
+		<g
+   id="g6"
+   style="fill:#000000">
+			<g
+   id="g4"
+   style="fill:#000000">
+				<path
+   style="fill:#000000"
+   d="M26.283,75.218c-0.384,0-0.768-0.146-1.06-0.44c-0.586-0.586-0.586-1.535,0-2.121l15.434-15.436      c0.585-0.586,1.535-0.586,2.121,0c0.586,0.586,0.586,1.535,0,2.121L27.344,74.778C27.051,75.071,26.667,75.218,26.283,75.218z"
+   id="path4" />
+			</g>
+			<g
+   id="g5"
+   style="fill:#000000">
+				<path
+   style="fill:#000000"
+   d="M41.717,75.218c-0.384,0-0.768-0.146-1.061-0.44L25.223,59.343c-0.586-0.586-0.586-1.535,0-2.121      c0.586-0.586,1.535-0.586,2.121,0l15.434,15.436c0.586,0.586,0.586,1.535,0,2.121C42.484,75.071,42.101,75.218,41.717,75.218z"
+   id="path5" />
+			</g>
+		</g>
+		<g
+   id="g7"
+   style="fill:#000000">
+			<path
+   style="fill:#000000"
+   d="M76.5,34.5h-17c-0.828,0-1.5-0.672-1.5-1.5c0-0.828,0.672-1.5,1.5-1.5h17     c0.828,0,1.5,0.672,1.5,1.5C78,33.828,77.328,34.5,76.5,34.5z"
+   id="path6" />
+		</g>
+		<g
+   id="g8"
+   style="fill:#000000">
+			<path
+   style="fill:#000000"
+   d="M76.5,63.5h-17c-0.828,0-1.5-0.672-1.5-1.5c0-0.828,0.672-1.5,1.5-1.5h17     c0.828,0,1.5,0.672,1.5,1.5C78,62.828,77.328,63.5,76.5,63.5z"
+   id="path7" />
+		</g>
+		<g
+   id="g9"
+   style="fill:#000000">
+			<path
+   style="fill:#000000"
+   d="M76.5,73.5h-17c-0.828,0-1.5-0.672-1.5-1.5c0-0.828,0.672-1.5,1.5-1.5h17     c0.828,0,1.5,0.672,1.5,1.5C78,72.828,77.328,73.5,76.5,73.5z"
+   id="path8" />
+		</g>
+	</g>
+</g>
+<script
+   type="text/javascript"
+   id="script10">
+    <![CDATA[
+         var c=window.location.search.split('color=')[1]; c=parseInt(c,16); if(!isNaN(c)){c=c.toString(16);var p=document.getElementsByTagName('path');for(var i=0,l=p.length;i<l;i++){var s=p[i].style;s.fill='#'+c;} var p2=document.getElementsByTagName('polygon');for(var i=0,l=p2.length;i<l;i++){var s=p2[i].style;s.fill='#'+c;} var p3=document.getElementsByTagName('circle');for(var i=0,l=p3.length;i<l;i++){var s=p3[i].style;s.fill='#'+c;} }
+        ]]>
+</script>
+</svg>
