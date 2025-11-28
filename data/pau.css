@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dynalight&display=swap');
 html {font-family:"Montserrat", sans-serif; color:#000; font-size:1em;}
 html,body,div,img,ul,li,a {z-index:0; margin:0; padding:0; box-sizing:border-box; border-width:0px; list-style:none; transition:0.5s;}
 a:link,a:visited,a:active {color:#000; text-decoration:underline;}
 a:hover {color:#fff; transition:0s;}
 body {background:#00000099 url(wood2.jpg) repeat top center local;}
 
-#logo {display:flex; justify-content:center; align-items:center; background:#00000030; font-family:"Dynalight"; font-size:3.7em; color:#fff; text-decoration:none;}
+#logo {display:flex; justify-content:center; align-items:center; background:#00000030; font-family:"Ephesis"; font-size:3.7em; color:#fff; text-decoration:none;}
 #logo img {height:120px; margin:10px 20px 10px 0;}
 #menu {position:relative; font-size:1.2em; overflow:hidden; background:#00000060; text-shadow:0px 0px 50px #000;}
 #menu img {display:none;}
@@ -24,8 +21,8 @@ body {background:#00000099 url(wood2.jpg) repeat top center local;}
 #main {position:relative; display:flex; justify-content:center; margin:0 0 20px 0; background:#ffffff60; text-align:left; line-height:1.5; box-shadow:0 0 10px 0 #000;}
 #obsah {min-width:960px; max-width:960px; padding:30px;}
 h1 {margin:0 0 0px 0; text-align:center; font-size:1.6em; font-weight:normal; padding:10px 20px; background:#00000030; border-radius:10px 10px 0 0;}
-h2 {margin:0 0 40px 0; text-align:center; font-size:1.3em; font-weight:normal; background:#00000030; padding:10px 20px; border-radius:10px;}
-h3 {margin:0 0 10px 0; font-size:1.3em; font-weight:bold;}
+h2 {margin:0 0 40px 0; text-align:center; font-size:1.3em; font-weight:normal; background:#00000030; padding:10px 20px; border-radius:10px; clear:both;}
+h3 {margin:0 0 0 0; font-size:1.3em; font-weight:bold;}
 h4 {margin:0; font-size:1em; font-weight:bold; text-transform:uppercase;}
 .uvod-foto {display:flex; justify-content:center;}
 .uvod-foto img {width:100%; border-radius:0 0 10px 10px;}
@@ -35,7 +32,8 @@ h4 {margin:0; font-size:1em; font-weight:bold; text-transform:uppercase;}
 .uvod-sluzby div {width:175px; padding:0px 10px;}
 .uvod-sluzby img {width:150px;}
 .sluzby {clear:both;}
-.sluzby img {width:150px; clear:both; float:right;}
+.sluzby img {width:150px; margin:0 20px 40px 0; clear:both; float:left;}
+.sluzby div {margin:0 0 50px 0; clear:both;}
 .projekt {clear:both; margin:40px 0 0 0;}
 .projekt img {float:right; margin:0 0 20px 0; height:200px; border:2px solid #ffffff00; border-radius:10px;}
 .projekt img:hover {opacity:0.7; border:2px solid #ffffffff; cursor:pointer; transition:0s;}
@@ -77,6 +75,6 @@ h4 {margin:0; font-size:1em; font-weight:bold; text-transform:uppercase;}
 h1 {font-size:1.3em;}
 .uvod-sluzby div {padding:10px 0 0 0;}
 .uvod-sluzby img {width:120px;}
-.sluzby img {width:120px;}
+.sluzby img {width:120px; margin:0; float:right;}
 .projekt img {clear:both; margin:0 0 0 10px;}
 .mapa {width:100%;}
