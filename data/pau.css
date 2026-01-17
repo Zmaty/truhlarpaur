@@ -20,26 +20,26 @@ body {background:#00000099 url(wood2.jpg) repeat top center local;}
 #zpetnahoru {display:flex; z-index:100; position:fixed; bottom:5px; right:5px; height:45px; padding:10px 20px; background:#00000060; cursor:pointer; font-size:1.2em; color:#fff; border-radius:10px;}
 #main {position:relative; display:flex; justify-content:center; margin:0 0 20px 0; background:#ffffff60; text-align:left; line-height:1.5; box-shadow:0 0 10px 0 #000;}
 #obsah {min-width:960px; max-width:960px; padding:30px;}
-h1 {margin:0 0 0px 0; text-align:center; font-size:1.6em; font-weight:normal; padding:10px 20px; background:#00000030; border-radius:10px 10px 0 0;}
-h2 {margin:0 0 40px 0; text-align:center; font-size:1.3em; font-weight:normal; background:#00000030; padding:10px 20px; border-radius:10px; clear:both;}
-h3 {margin:0 0 0 0; font-size:1.3em; font-weight:bold;}
+h1 {margin:0; text-align:center; font-size:1.6em; font-weight:normal; padding:10px 20px; background:#00000030; border-radius:10px 10px 0 0;}
+h2 {margin:0 0 30px 0; text-align:center; font-size:1.3em; font-weight:normal; background:#00000030; padding:10px 20px; border-radius:10px; clear:both;}
+h3 {margin:0; font-size:1.3em; font-weight:bold; line-height:1.2;}
 h4 {margin:0; font-size:1em; font-weight:bold; text-transform:uppercase;}
 .uvod-foto {display:flex; justify-content:center;}
 .uvod-foto img {width:100%; border-radius:0 0 10px 10px;}
-.poznamka {font-weight:normal; font-style:italic;}
+.poznamka {font-weight:normal; font-style:italic; line-height:1.5; margin:0 0 15px 0;}
 .uvod-sluzby {clear:both; display:flex; flex-flow:row wrap; justify-content:center; text-align:center; margin-top:30px;}
 .uvod-sluzby * {min-width:0; font-size:1.2em;}
 .uvod-sluzby div {width:175px; padding:0px 10px;}
 .uvod-sluzby img {width:150px;}
 .sluzby {clear:both;}
-.sluzby img {width:150px; margin:0 20px 40px 0; clear:both; float:left;}
-.sluzby div {margin:0 0 50px 0; clear:both;}
-.projekty {clear:both; display:flex; flex-flow:row wrap; justify-content:center; margin-top:40px;}
+.sluzby img {width:150px; margin:0 20px 30px 0; clear:both; float:left;}
+.sluzby .sluzba {margin:0 0 30px 0; clear:both;}
+.projekty {clear:both; display:flex; flex-flow:row wrap; justify-content:center; margin-top:30px;}
 .projekty #galerie {width:175px; height:175px; margin:0 5px 5px 0; padding:1em 0 0 0; border-radius:10px; float:left; color:#fff; background:#99999900 center/cover no-repeat; transition:0.5s;}
 .projekty #galerie:hover {cursor:pointer; transform:scale(1.2); transition:0.2s;}
 .projekty #galerie-popis {padding:2px 7px; background:#00000077; line-height:1.2;}
 .neco-o-me {margin:0 0 40px 0;}
-.kontakt {margin:20px 0 0 0;}
+.kontakt {margin:15px 0 0 0;}
 .foto-krystof, .mapa {clear:both; float:right; height:200px; margin:0 0 20px 20px; border-radius:10px;}
 
 /* optimalizace pro mobily */
